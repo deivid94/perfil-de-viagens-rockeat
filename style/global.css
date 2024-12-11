@@ -1,7 +1,10 @@
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing:border-box ;
+    text-decoration: none;
+    list-style: none;
+
  }
 
  :root {
@@ -21,14 +24,12 @@
     --text-sm: regular 12px/170% var(--font-family);
     --text: 16px/150% var(--font-family); 
 
-
-
-
-    
  }
 
+ 
  body {
     font: var(--text);
     color: var(--text-color-seconday);
     background-color: var(--background-color);
+ 
  }
