@@ -31,5 +31,6 @@
     font: var(--text);
     color: var(--text-color-seconday);
     background-color: var(--background-color);
+   width: 100vw;
  
  }
