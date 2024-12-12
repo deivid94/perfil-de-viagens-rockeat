@@ -1,0 +1,42 @@
+header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    border: 1px solid green;
+    height: 240px;
+
+}
+
+#main {
+    display: flex;
+    width:592px;
+    height: 176px;
+    gap: 20px;
+    border: 1px solid purple;
+    margin: 32px;
+}
+
+#main img {
+    width: 176px;
+    height: 176px;
+}
+
+
+
+
+#info {
+    display: flex;
+    border: 1px solid cyan;
+    width:280px;
+    height: 104px;
+    margin-right:32px  ;
+
+}
+
+
+li {
+    margin-bottom:16px ;
+
+}
