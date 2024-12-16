@@ -1,5 +1,4 @@
 nav {
-    border: 1px  solid red;
     display: flex; 
     height: 80px;
     justify-content: space-between;
