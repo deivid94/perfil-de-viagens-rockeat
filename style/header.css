@@ -4,8 +4,8 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content:space-between;
-    border: 1px solid green;
     height: 240px;
+    background-color: var(--suface-color);
 
 }
 
@@ -14,7 +14,6 @@ header {
     width:592px;
     height: 176px;
     gap: 20px;
-    border: 1px solid purple;
     margin: 32px;
 }
 
@@ -28,7 +27,6 @@ header {
 
 #info {
     display: flex;
-    border: 1px solid cyan;
     width:280px;
     height: 104px;
     margin-right:32px  ;
