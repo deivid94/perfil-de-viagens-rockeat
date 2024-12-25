@@ -1,0 +1,18 @@
+
+
+main .photo_galery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:24px;
+    gap: 24px;
+}
+
+.card_photo img {
+    border: 1px solid blue;
+    width: 286px;
+    object-fit: cover;
+
+
+}
