@@ -2,8 +2,6 @@ header {
 
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content:space-between;
     height: 240px;
     background-color: var(--suface-color);
 
@@ -14,18 +12,20 @@ header {
     flex-direction: column;
     width:592px;
     height: 176px;
-    gap: 20px;
     margin: 32px;
 }
 
 
 .img-profile {
     margin-left: 32px;
+    margin-block: 32px ;
     width: 176px;
     height: 176px;
 
 }
-
+h1 {
+    margin-block: 8px;
+}
 
 p {
     width: 384px;
@@ -33,12 +33,23 @@ p {
     line-height: 1.7;
     text-align: left;
     color: #6c6c6c;
+    font-size: 14px;
 
 }
 
+ .info {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 104;
+    border: 1px solid green;
+    margin: 0 auto;
 
+} 
 
-li {
-    margin-bottom:16px ;
-
+header a {
+    gap: 6px;
+    margin-bottom: 15px;
 }
+
+

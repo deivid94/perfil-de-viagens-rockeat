@@ -45,5 +45,7 @@
   text-decoration: none;
   color: inherit;
  }
- 
+  p {
+   font: var(--text-md);
+  }
 
