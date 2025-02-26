@@ -1,9 +1,15 @@
+*, *::before, *::after{
+   box-sizing: border-box;
+}
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box ;
+    font: inherit;
     text-decoration: none;
     list-style: none;
+    --webkit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing:grayscale;
 
  }
 
@@ -19,10 +25,16 @@
 
     --font-family: "Poppins", sans-serif;
 
-    --text-lg: bold 32px/125% var(--font-family);
-    --text-md: regular 14px/170% var(--font-family);
-    --text-sm: regular 12px/170% var(--font-family);
+    --text-lg: bold 2rem/125% var(--font-family);
+    --text-md: regular 0.8rem/170% var(--font-family);
+    --text-sm: regular 0.65rem/170% var(--font-family);
     --text: 16px/150% var(--font-family); 
+    
+   --spacing-y-16: 1rem;
+   --spacing-y-32: 2rem;
+   --spacing-x-20: 1.25rem
+
+  
 
  }
 
@@ -30,11 +42,32 @@
  body {
     font: var(--text);
     background-color: var(--background-color);
-   width: 100vw;
- 
  }
 
- 
+
+.padding-16 { 
+   padding: 1rem;
+}
+ .gap-1 {
+   gap: 1rem;
+ }
+
+.mobile-hidden {
+   display: none;
+}
+
+
+.flex {
+   display: flex;
+}
+
+.grid {
+   display: grid;
+}
+.flow-col {
+   grid-template-columns: 1fr;
+}
+
 
  h1 {
    font: var(--text-lg);

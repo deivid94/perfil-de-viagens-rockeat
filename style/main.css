@@ -1,18 +1,24 @@
 
 
 main .photo_galery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding:24px;
-    gap: 24px;
+    /* display: grid;
+    grid-template-columns:1fr ; */
+    width: 375px;
+    
+
+    
+    
 }
 
 .card_photo img {
-    border: 1px solid blue;
-    width: 286px;
+    border: 1px solid #ccc;
+    width: 100%;
     object-fit: cover;
+    transition: all;
+    
 
+}
 
+.card_photo img:hover{
+    border: 1px solid var(--brand-color);
 }

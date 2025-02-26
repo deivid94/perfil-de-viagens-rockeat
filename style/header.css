@@ -54,5 +54,7 @@ p {
     width:280px ;
     height: 24px;
 }
-
+ @media(--min-width:375px){
+    
+ }
 
