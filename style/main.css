@@ -1,13 +1,7 @@
 
 
 main .photo_galery {
-    /* display: grid;
-    grid-template-columns:1fr ; */
-    width: 375px;
-    
-
-    
-    
+    width: 375px;    
 }
 
 .card_photo img {

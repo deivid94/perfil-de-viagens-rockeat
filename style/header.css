@@ -1,60 +1,45 @@
 
 
-header .container {
-
+header{
    background-color: var(--suface-color);
-   justify-content: space-between;
-   display: flex;
-   padding: 32px;
-
+    width: 100%;
 }
 
-
+.img-profile{
+    display: block;
+    min-width: 150px;
+}
 
 .profile {
     align-items: center;
     display: flex;
-    gap: 32px;
-
-
-}
-
-.profile > div {
-    max-width: 384px;
-
+    
 }
 
 
 h1 {
-    margin-bottom: 8px;
+    margin-bottom: 0.875rem;
+    color: var(--text-color-primary);
 
 }
 
 p {
-    width: 384px;
-    height: 120px;
     line-height: 1.7;
-    text-align: left;
-    color: #6c6c6c;
-    font-size: 14px;
+    color: var(--text-color-secondary);
+    font-size: var(--text-sm);
 
 }
 
  .info {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    width: 280px;
 
 } 
 
 .info li {
+    width: 100%;
+    justify-content: star;
     display: flex;
-    gap: 10px;
-    width:280px ;
     height: 24px;
 }
- @media(--min-width:375px){
-    
- }
 
