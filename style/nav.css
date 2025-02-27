@@ -2,16 +2,9 @@ nav {
 
     background-color: var(--suface-color);
     padding: var(--spacing-y-16);
-    border: 1px solid red;
     align-items: center;
     
 }
- .nav-logo  {
-    margin: 0 auto;
-    width: 162px;
-    height: 2rem;
-    
- }
 
  .nav-logo img{
     width:12.5rem ;
@@ -38,7 +31,7 @@ ul{
 
 nav ul li:last-child img {
    width: 50px;
-   margin-inline: 0px 32px;
+   
 }
 
 @media screen  and (max-width:375px){
