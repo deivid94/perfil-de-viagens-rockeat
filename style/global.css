@@ -82,7 +82,7 @@
    display: grid;
 }
 .flow-col {
-   grid-template-columns: 1f;
+   grid-template-columns: 1fr;
 }
 .flow-col-2 {
    grid-template-columns: 1fr 1fr;

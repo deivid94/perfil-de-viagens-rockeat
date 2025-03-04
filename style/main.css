@@ -1,7 +1,7 @@
 
 
 main .photo_galery {
-    width: 375px;    
+        
 }
 
 .card_photo img {
@@ -16,3 +16,46 @@ main .photo_galery {
 .card_photo img:hover{
     border: 1px solid var(--brand-color);
 }
+
+@media (min-width: 375px){
+
+
+    main .photo_galery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+        
+    }
+
+} 
+
+@media (min-width: 1440px){
+
+
+    main .photo_galery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr)
+        
+    }
+
+}
+@media (min-width: 1280px){
+
+
+    main .photo_galery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr)
+        
+    }
+
+}
+@media (min-width: 768px){
+
+
+    main .photo_galery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr)
+        
+    }
+
+}
+
